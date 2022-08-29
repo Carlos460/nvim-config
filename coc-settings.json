@@ -1,0 +1,9 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "CSS",
+    "TypeScript",
+    "JavaScript",
+    "JSX",
+    "JSON"
+  ]
+}
