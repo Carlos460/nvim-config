@@ -1,6 +1,7 @@
-require('nvim-treesitter.configs').setup{
-  auto_install = true,
+require('nvim-treesitter.configs').setup {
+  ensure_installed = { "cpp" , "css" , "javascript", "typescript" , "html"},
   hightlight = {
     enable = true,
+    additional_vim_regex_highlighting = false,
   }
 }

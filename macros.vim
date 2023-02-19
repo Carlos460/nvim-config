@@ -8,12 +8,18 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Bufferline Cycle throught and close buffers
-nnoremap <C-n> :BufferLineCycleNext<Cr>
-nnoremap <C-p> :BufferLineCyclePrev<Cr>
-nnoremap <C-c>  :BufferLinePickClose<Cr>
+nnoremap gt :BufferLineCycleNext<Cr>
+nnoremap gT :BufferLineCyclePrev<Cr>
 
 " NvimTree Toggle
 nnoremap nt :NvimTreeToggle<Cr>
 
 " Telescope Toggle
 nnoremap <C-p> :Telescope<Cr>
+
+" bufferline macros 
+
+" pick and close a buffer
+nnoremap <silent> gD :BufferLinePickClose<CR>
+" pick and open a buffer
+nnoremap <silent> gb :BufferLinePick<CR>
